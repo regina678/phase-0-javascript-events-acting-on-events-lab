@@ -1,5 +1,8 @@
 // Your code here
 const dodger = document.getElementById("dodger");
+dodger.style.backgroundColor = "#FF69B4";
+dodger.style.left = "0px";
+dodger.style.bottom = "0px";
 
 function moveDodgerLeft() {
     const left = parseInt(dodger.style.left.replace("px", ""), 10);
